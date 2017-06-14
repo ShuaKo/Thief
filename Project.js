@@ -523,6 +523,7 @@ var Level1 = new Level(1);
 var Level2 = new Level(2);
 var Level3 = new Level(3);
 var Level4 = new Level(4);
+var Level5 = new Level(5);
 
 function LevelDesign(){
 
@@ -900,6 +901,8 @@ function LevelDesign(){
 	Level4.setDestination(2,5,0);
 
 	Level4.placeSafe(4,3); //Level1.placeSafe(6,4); //
+
+
 
 }
 
